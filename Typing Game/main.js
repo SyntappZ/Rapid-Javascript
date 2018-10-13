@@ -41,7 +41,7 @@ let i = 0;
 
 
 
-// DOM Elements
+
 const checkBox = document.querySelector("#myCheck");
 const wordInput = document.querySelector('#code-input');
 const currentWord = document.querySelector('#current-code');
@@ -105,7 +105,7 @@ const words = [
   
 
 
-// Init Game
+// Init
 function init() {
   seconds.innerHTML = currentLevel;
   showWord(words);
@@ -129,7 +129,7 @@ function startMatch() {
 
   
 
-  // If score is -1, display 0
+  
   if (words === -1) {
     scoreDisplay.innerHTML = 0;
   } else {
@@ -174,15 +174,15 @@ function countdown() {
 
 
 
- 
+ //end screen
 function checkStatus(){
   if (!isPlaying && time === 0){
     document.getElementById("endScreen").style.display = "block";
   }
    
-
-  
 }
+
+//reload
 function replay(){
   location.reload();
 }
