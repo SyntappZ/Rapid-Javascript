@@ -278,8 +278,58 @@ header h1{
 }
 
 
-/*MEDIA================================================*/
+/*RESPONSIVENESS================================================*/
+@media(min-width: 600px) and (max-width:1050px){
+    body{
+        background:rgb(112, 2, 2);
+    }
+    header{
+        height:30px;
+        margin:auto;
+        background: rgb(168, 168, 168);
+        box-shadow: rgba(0, 0, 0, 0.363) 1px 1px 7px 2px;
+    }
 
+   #wrapper{
+       width:100%;
+       margin:0;
+   }
+   header h1{
+       font-size:25px;
+       margin:5px;
+   }
+   #code-input{
+       width:90%
+   }
+   #instructions{
+       width:600px;
+       
+   }
+  
+   #current-code{
+       font-size:20px;
+   }
+   #code-box{
+       height:300px;
+   }
+   #endScreenContent{
+       width:70%;
+       font-size:12px;
+   }
+   #startScreenContent{
+    width:70%;
+    
+   }
+   #welcome{
+        font-size:18px;
+   }
+    #see{
+        font-size:16px;
+   }
+   #para{
+       font-size: 14px;
+   }
+}
 @media(max-width: 600px){
     body{
         background:rgb(112, 2, 2);
