@@ -1,34 +1,45 @@
-/*    font-family: 'Kanit', sans-serif;   */
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
 
 body{
     margin:0;
     padding:0;
-    background:url(img/red.svg) no-repeat;
-    background-size:cover;
-    font-family: 'Poppins', sans-serif;
+    background-color:rgb(20, 20, 20);
+    font-family: 'Exo 2', sans-serif;
     color:#fff;
     width:100%;
 }
 #wrapper{
    width:50%;
+   background-color:rgba(255, 255, 255, 0.308);
    height:auto;
    margin:0 auto;
    text-align:center;
+   padding-bottom:50px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
 }
-
+canvas{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -10;
+}
 /*HEADER=============================================*/
 
 header{
-    width:100%;
+    width:50%;
     height:auto;
     padding:10px 0 20px 0;
     text-align: center;
+    background-color:#F4CB89;
+    margin:auto;
+    
 }
 header h1{
     font-weight:bold;
     font-size:50px;
-    margin:20px 0 0 0;
+    margin:10px 0 0 0;
     text-transform: capitalize;
     color:#000;
 }
@@ -185,11 +196,11 @@ header h1{
   }
   
   input:checked + .slider {
-    background-color: #B20808;
+    background-color: #6B0C22;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #B20808;
+    box-shadow: 0 0 1px #6B0C22;
   }
   
   input:checked + .slider:before {
@@ -235,7 +246,7 @@ header h1{
     height:40px;
     margin-top:100px;
     border-radius: 9px;
-    background-color:#B20808;
+    background-color:#6B0C22;
     font-weight: bold;
 }
 #score2{
@@ -272,7 +283,7 @@ header h1{
     height:40px;
     margin-top:100px;
     border-radius: 9px;
-    background-color:#B20808;
+    background-color:#6B0C22;
     font-weight: bold;
     color:#fff;
 }
@@ -280,16 +291,8 @@ header h1{
 
 /*RESPONSIVENESS================================================*/
 @media(min-width: 600px) and (max-width:1050px){
-    body{
-        background:rgb(112, 2, 2);
-    }
-    header{
-        height:30px;
-        margin:auto;
-        background: rgb(168, 168, 168);
-        box-shadow: rgba(0, 0, 0, 0.363) 1px 1px 7px 2px;
-    }
-
+   
+    
    #wrapper{
        width:100%;
        margin:0;
@@ -331,15 +334,8 @@ header h1{
    }
 }
 @media(max-width: 600px){
-    body{
-        background:rgb(112, 2, 2);
-    }
-    header{
-        height:30px;
-        margin:auto;
-        background: rgb(168, 168, 168);
-        box-shadow: rgba(0, 0, 0, 0.363) 1px 1px 7px 2px;
-    }
+    
+    
 
    #wrapper{
        width:100%;
