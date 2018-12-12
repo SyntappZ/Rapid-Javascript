@@ -78,8 +78,8 @@ function animate(){
     requestAnimationFrame(animate);
     c.clearRect(0,0,innerWidth,innerHeight);
     
-    for(let i = 0; i < circleArray.length; i++){
-        circleArray[i].update();
+    for(let j = 0; j < circleArray.length; j++){
+        circleArray[j].update();
     }
 }
 
