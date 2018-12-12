@@ -1,5 +1,5 @@
 # Rapid-Javascript
-A typing game i made to learn some javascript this took me some time to make but was fun learning.
+my first ever javascript project it was a follow along tutorial on youtube and then turned it into my own game of javascript words that get harder as you progress and i added changes like a button to it to change the difficulty and start and end screens. buildiing this project helped me understand how to use countdowns and how if statements work also i understand arrays a bit better now, i also know how to grab dom elements with javascript now too.
 
 # screenshot
 
