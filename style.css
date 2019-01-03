@@ -7,7 +7,7 @@ body{
     background-color:rgb(20, 20, 20);
     font-family: 'Exo 2', sans-serif;
     color:#fff;
-    width:100%;
+    
 }
 #wrapper{
    width:50%;
@@ -101,7 +101,7 @@ header h1{
     color:#000;
 }
 .messageBox{
-    width:100%;
+    width:90%;
     height:100px;
 }
 /*INSTRUCTIONS========================================*/
@@ -124,7 +124,7 @@ header h1{
     position: absolute;
     z-index: 100;
     width:100%;
-    height:100%;
+    height:100vh;
     background-color:rgba(0,0,0,0.7);
 }
 
@@ -224,7 +224,7 @@ header h1{
     position: absolute;
     z-index: 101;
     width:100%;
-    height:100%;
+    height:100vh;
     background-color:rgba(0,0,0,0.7);
     display:none;
     top:0;
@@ -259,7 +259,7 @@ header h1{
     position: absolute;
     z-index: 101;
     width:100%;
-    height:100%;
+    height:100vh;
     background-color:rgba(0,0,0,0.7);
     display:none;
     top:0;
@@ -290,7 +290,7 @@ header h1{
 
 
 /*RESPONSIVENESS================================================*/
-@media(min-width: 600px) and (max-width:1050px){
+@media(min-width: 750px) and (max-width:1050px){
    
     
    #wrapper{
@@ -305,7 +305,7 @@ header h1{
        width:90%
    }
    #instructions{
-       width:600px;
+       width:90%;
        
    }
   
@@ -333,7 +333,9 @@ header h1{
        font-size: 14px;
    }
 }
-@media(max-width: 600px){
+
+/*-- mobile --*/
+@media(max-width: 750px){
     
     
 
@@ -349,7 +351,7 @@ header h1{
        width:90%
    }
    #instructions{
-       width:200px;
+       width:80%;
        
    }
   

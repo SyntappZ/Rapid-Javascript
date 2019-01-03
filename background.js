@@ -60,16 +60,30 @@ let circleArray = [];
 function init(){
     
     circleArray = [];
-    for(let i = 0; i < 800; i++){
-        let radius = Math.random() * 2 + 1;
-        let x = Math.random()* (innerWidth - radius * 2) + radius;
-        let y = Math.random()* (innerHeight - radius * 2) + radius;
-        let dx = (Math.random() - 0.5);
-        let dy = (Math.random() - 0.5);
-        
-
-        circleArray.push(new Circle(x, y, dx, dy, radius))
+    if(window.screen.width < 750){
+        for(let i = 0; i < 200; i++){
+            let radius = Math.random() * 2 + 1;
+            let x = Math.random()* (innerWidth - radius * 2) + radius;
+            let y = Math.random()* (innerHeight - radius * 2) + radius;
+            let dx = (Math.random() - 0.5);
+            let dy = (Math.random() - 0.5);
+            
+    
+            circleArray.push(new Circle(x, y, dx, dy, radius))
+        }
+    }else{
+        for(let i = 0; i < 800; i++){
+            let radius = Math.random() * 2 + 1;
+            let x = Math.random()* (innerWidth - radius * 2) + radius;
+            let y = Math.random()* (innerHeight - radius * 2) + radius;
+            let dx = (Math.random() - 0.5);
+            let dy = (Math.random() - 0.5);
+            
+    
+            circleArray.push(new Circle(x, y, dx, dy, radius))
+        }
     }
+    
 
 }
 
